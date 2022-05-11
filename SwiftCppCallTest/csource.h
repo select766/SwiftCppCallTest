@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+int addc(int a, int b);
+
 #endif /* csource_h */

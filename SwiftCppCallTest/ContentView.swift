@@ -11,6 +11,11 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+        Button(action: {
+            print(addc(2, 3))
+        }) {
+            Text("addc")
+        }
     }
 }
 

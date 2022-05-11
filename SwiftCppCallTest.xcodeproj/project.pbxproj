@@ -11,6 +11,7 @@
 		AA360F1F282BC5A200A9BCC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA360F1E282BC5A200A9BCC3 /* ContentView.swift */; };
 		AA360F21282BC5A600A9BCC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA360F20282BC5A600A9BCC3 /* Assets.xcassets */; };
 		AA360F24282BC5A600A9BCC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA360F23282BC5A600A9BCC3 /* Preview Assets.xcassets */; };
+		AA360F2D282BC67000A9BCC3 /* csource.c in Sources */ = {isa = PBXBuildFile; fileRef = AA360F2C282BC67000A9BCC3 /* csource.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,9 @@
 		AA360F1E282BC5A200A9BCC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA360F20282BC5A600A9BCC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA360F23282BC5A600A9BCC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA360F2A282BC67000A9BCC3 /* SwiftCppCallTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCppCallTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA360F2B282BC67000A9BCC3 /* csource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = csource.h; sourceTree = "<group>"; };
+		AA360F2C282BC67000A9BCC3 /* csource.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = csource.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,9 @@
 				AA360F1E282BC5A200A9BCC3 /* ContentView.swift */,
 				AA360F20282BC5A600A9BCC3 /* Assets.xcassets */,
 				AA360F22282BC5A600A9BCC3 /* Preview Content */,
+				AA360F2B282BC67000A9BCC3 /* csource.h */,
+				AA360F2C282BC67000A9BCC3 /* csource.c */,
+				AA360F2A282BC67000A9BCC3 /* SwiftCppCallTest-Bridging-Header.h */,
 			);
 			path = SwiftCppCallTest;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				TargetAttributes = {
 					AA360F18282BC5A200A9BCC3 = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -137,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA360F2D282BC67000A9BCC3 /* csource.c in Sources */,
 				AA360F1F282BC5A200A9BCC3 /* ContentView.swift in Sources */,
 				AA360F1D282BC5A200A9BCC3 /* SwiftCppCallTestApp.swift in Sources */,
 			);
@@ -264,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCppCallTest/Preview Content\"";
@@ -283,6 +293,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.outlook.select766.SwiftCppCallTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCppCallTest/SwiftCppCallTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCppCallTest/Preview Content\"";
@@ -312,6 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.outlook.select766.SwiftCppCallTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCppCallTest/SwiftCppCallTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
