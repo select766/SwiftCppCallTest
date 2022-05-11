@@ -10,4 +10,14 @@
 
 #include <stdio.h>
 
+
+class AddCpp {
+public:
+    AddCpp();
+    void add(int v);
+    int get_sum();
+private:
+    int sum;
+};
+
 #endif /* cppsource_hpp */

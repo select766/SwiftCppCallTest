@@ -16,6 +16,14 @@ struct ContentView: View {
         }) {
             Text("addc")
         }
+        Button(action: {
+            let obj = addcpp_create() // UnsafeMutableRawPointer!
+            addcpp_add(obj, 5)
+            addcpp_add(obj, 6)
+            print(addcpp_get_sum(obj))
+        }) {
+            Text("addcpp")
+        }
     }
 }
 

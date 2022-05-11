@@ -10,4 +10,15 @@
 
 #include <stdio.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+void* addcpp_create();
+void addcpp_add(void* obj, int v);
+int addcpp_get_sum(void* obj);
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif /* cppwrapper_h */

@@ -6,3 +6,14 @@
 //
 
 #include "cppsource.hpp"
+
+AddCpp::AddCpp(): sum(0) {
+}
+
+void AddCpp::add(int v) {
+    sum += v;
+}
+
+int AddCpp::get_sum() {
+    return sum;
+}

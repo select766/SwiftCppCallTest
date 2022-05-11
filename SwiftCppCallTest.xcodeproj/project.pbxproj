@@ -12,6 +12,8 @@
 		AA360F21282BC5A600A9BCC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA360F20282BC5A600A9BCC3 /* Assets.xcassets */; };
 		AA360F24282BC5A600A9BCC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA360F23282BC5A600A9BCC3 /* Preview Assets.xcassets */; };
 		AA360F2D282BC67000A9BCC3 /* csource.c in Sources */ = {isa = PBXBuildFile; fileRef = AA360F2C282BC67000A9BCC3 /* csource.c */; };
+		AA360F30282BC8AA00A9BCC3 /* cppsource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA360F2E282BC8AA00A9BCC3 /* cppsource.cpp */; };
+		AA360F33282BCA0E00A9BCC3 /* cppwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA360F32282BCA0E00A9BCC3 /* cppwrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		AA360F2A282BC67000A9BCC3 /* SwiftCppCallTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCppCallTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		AA360F2B282BC67000A9BCC3 /* csource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = csource.h; sourceTree = "<group>"; };
 		AA360F2C282BC67000A9BCC3 /* csource.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = csource.c; sourceTree = "<group>"; };
+		AA360F2E282BC8AA00A9BCC3 /* cppsource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cppsource.cpp; sourceTree = "<group>"; };
+		AA360F2F282BC8AA00A9BCC3 /* cppsource.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cppsource.hpp; sourceTree = "<group>"; };
+		AA360F31282BCA0E00A9BCC3 /* cppwrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cppwrapper.h; sourceTree = "<group>"; };
+		AA360F32282BCA0E00A9BCC3 /* cppwrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cppwrapper.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				AA360F2B282BC67000A9BCC3 /* csource.h */,
 				AA360F2C282BC67000A9BCC3 /* csource.c */,
 				AA360F2A282BC67000A9BCC3 /* SwiftCppCallTest-Bridging-Header.h */,
+				AA360F2E282BC8AA00A9BCC3 /* cppsource.cpp */,
+				AA360F2F282BC8AA00A9BCC3 /* cppsource.hpp */,
+				AA360F31282BCA0E00A9BCC3 /* cppwrapper.h */,
+				AA360F32282BCA0E00A9BCC3 /* cppwrapper.cpp */,
 			);
 			path = SwiftCppCallTest;
 			sourceTree = "<group>";
@@ -145,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA360F33282BCA0E00A9BCC3 /* cppwrapper.cpp in Sources */,
 				AA360F2D282BC67000A9BCC3 /* csource.c in Sources */,
 				AA360F1F282BC5A200A9BCC3 /* ContentView.swift in Sources */,
+				AA360F30282BC8AA00A9BCC3 /* cppsource.cpp in Sources */,
 				AA360F1D282BC5A200A9BCC3 /* SwiftCppCallTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
